@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
@@ -20,7 +20,7 @@
   <!-- <object data="images\pattern-background-desktop.svg"></object> -->
 
   <div id="container">
-    <object data="images\illustration-hero.svg"></object>
+    <object data="images\illustration-hero.svg" id="img"></object>
 
 
     <h1>Order Summary</h1>
@@ -30,10 +30,19 @@
       device anywhere you like!
     </p>
 
-    <div>
-      <object data="images\icon-music.svg"></object>
-      Annual Plan
-      $59.99/year
+    <div id="price">
+      
+      <div class="flex">
+        <object data="images\icon-music.svg"></object>
+        <div>  
+          Annual Plan
+          <br>
+          $59.99/year
+        </div>
+      </div>
+      
+      
+        
       Change
     </div>
     
