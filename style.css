@@ -12,33 +12,21 @@
 	border: 0;
 }
 
-html, body{
-    height: 100%; 
-}
-
-/* .flex {
-    display:flex; 
-} */
-
-#img{
-    border-radius: 1rem 1rem 0rem 0rem; 
-}
-
 body{
+    min-height: 100vh; 
+    display: grid; 
+    justify-content: center; 
+    align-content: center; 
     background-image: url(/images/pattern-background-desktop.svg);
 
     background-color: var(--pale-blue); 
     background-repeat: repeat-x; 
-    /* display: flex; 
-    align-items: center; 
-    justify-content: center;  */
+    
 }
 
 #container{
     background-color: white;  
-    /* display:flex; 
-    flex-direction: column;  */
-
+    
     width: 25rem; 
     height: 40rem; 
 
@@ -47,15 +35,11 @@ body{
 }
 
 #price{
-    /* display: flex; 
-    justify-content: space-between;  */
     background-color: var(--very-pale-blue);  
 }
 
+#img{
+    border-radius: 1rem 1rem 0rem 0rem; 
+    width: 25rem; 
 
-.attribution{ 
-    width: 100%; 
-    position: absolute; 
-    bottom: 0; 
-    text-align: center;
 }
